@@ -4,7 +4,7 @@ function Navbar(){
     const [menuOpen, setMenuOpen] = useState(false);
     return (
     <>
-    <nav className="sticky top-0 z-50 border-b border-gray-200">
+    <nav className="sticky top-0 z-50 border-b border-gray-200 bg-white">
         <div className="max-w-7xl mx-auto px-10 lg:px-20  py-4 flex items-center justify-between">
         <a href="/" className="flex items-center">
         <img src="/logo-text.png" alt ="Dev Stack" className="w-36"/>
