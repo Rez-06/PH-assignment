@@ -5,7 +5,8 @@ function Navbar(){
     return (
     <>
     <nav className="sticky top-0 z-50 border-b border-gray-200 bg-white">
-        <div className="max-w-7xl mx-auto px-6 lg:px-20 py-4 flex items-center justify-between gap-4">
+        <div className="max-w-7xl mx-auto px-6 lg:px-20 py-4 grid grid-cols-3 items-center gap-4">
+       <div className="flex items-center gap-4">
         <button
           onClick={() => setMenuOpen(!menuOpen)}
           className="md:hidden text-2xl"
@@ -13,18 +14,25 @@ function Navbar(){
           <img src="/hamburger.png" alt="hamburger" className="w-6 h-6"/>
         </button>
 
-        <a href="/" className="flex items-center md:mr-auto">
+        <a href="/" className="hidden md:flex items-center">
         <img src="/logo-text.png" alt ="Dev Stack" className="w-36"/>
         </a>
+       </div>
 
-        <div className="hidden md:flex items-center gap-8">
-            <a href="#home" className="text-gray-700 hover:text-purple-600">Home</a>
-            <a href="#technologies" className="text-gray-700 hover:text-purple-600">Technologies</a>
-            <a href="#projects" className="text-gray-700 hover:text-purple-600">Projects</a>
-            <a href="#about" className="text-gray-700 hover:text-purple-600">About</a>
-            <a href="#contact" className="text-gray-700 hover:text-purple-600">Contact</a>
-        </div>
-          <div className="flex items-center gap-2 md:gap-4">
+        <div className="flex items-center justify-center gap-8">
+  <a href="/" className="flex items-center md:hidden">
+    <img src="/logo-text.png" alt="Dev Stack" className="w-36"/>
+  </a>
+
+          <div className="hidden md:flex items-center justify-center gap-8">
+                <a href="#home" className="text-gray-700 hover:text-purple-600">Home</a>
+                <a href="#technologies" className="text-gray-700 hover:text-purple-600">Technologies</a>
+                <a href="#projects" className="text-gray-700 hover:text-purple-600">Projects</a>
+                <a href="#about" className="text-gray-700 hover:text-purple-600">About</a>
+                <a href="#contact" className="text-gray-700 hover:text-purple-600">Contact</a>
+            </div>
+          </div>
+          <div className="flex items-center justify-end gap-2 md:gap-4">
           <button className="hidden md:inline text-gray-700 hover:text-purple-600">
             Sign In
           </button>
