@@ -30,8 +30,13 @@ export function YourStackSidebar ({stack , onRemove,onRemoveAll}: YourStackSideb
                                     <span className="text-xs text-slate-400">{item.category}</span>
                                 </div>
                             </div>
-                            <button onClick={()=> onRemove(item.id)} className="text-slate-300 hover:text-slate-600 font-bold p-1">
-                            <i className="fa-sharp fa-thin fa-x"></i> </button>
+                            <button
+                            onClick={() => onRemove(item.id)}
+                            className="p-1"
+                            aria-label={`Remove ${item.name}`}
+                            >
+                            <i className="fa-solid fa-xmark text-red-500 hover:text-red-600 transition-colors"></i>
+                            </button>
                         </div>
                     ))}
                     <button
