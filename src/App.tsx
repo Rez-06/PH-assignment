@@ -9,6 +9,7 @@ function App() {
      <Navbar />
      <main className="p-10">
         <Hero/>
+        <TechSection />
         <Footer/>
      </main>
     </>
