@@ -5,7 +5,7 @@ function Navbar(){
     return (
     <>
     <nav className="sticky top-0 z-50 border-b border-gray-200">
-        <div className="max-w-7xl mx-auto px-20 py-4 flex items-center justify-between">
+        <div className="max-w-7xl mx-auto px-10 lg:px-20  py-4 flex items-center justify-between">
         <a href="/" className="flex items-center">
         <img src="/logo-text.png" alt ="Dev Stack" className="w-36"/>
         </a>

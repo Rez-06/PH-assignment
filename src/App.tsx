@@ -1,14 +1,13 @@
 import Navbar from "./components/Navbar";
 import './App.css'
-
+import Hero from "./components/Hero";
 function App() {
 
   return(
     <>
      <Navbar />
      <main className="p-10">
-        <h1 className="text-3xl font-bold"> Dev Stack</h1>
-
+        <Hero/>
      </main>
     </>
   )
