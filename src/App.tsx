@@ -14,6 +14,7 @@ function App() {
         <Hero/>
         <TechSection />
         <Footer/>
+        <ToastContainer position="top-right" autoClose={3000} />
      </main>
     </>
   )
