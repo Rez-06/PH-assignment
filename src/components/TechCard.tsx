@@ -43,7 +43,7 @@ const TechCard: React.FC<TechCardProps> = ({ tech, onAdd, isAdded}) =>{
                 </div>
 
                 <button onClick={()=>onAdd(tech)} disabled={isAdded} className="text-white w-full py-2.5 rounded-xl font-semibold transition-all cursor-pointer bg-black">
-                    {isAdded? "Added to Stack" : "Add to Stack"}
+                    {isAdded? "✓  Added to Stack" : "Add to Stack"}
 
                 </button>
             </div>

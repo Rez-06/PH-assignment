@@ -50,7 +50,7 @@ export function TechSection(){
             <div className="mb-8">
                 <h2 className="text-3xl font-extrabold text-slate-900">
                     Explore the{" "}
-                    <span className="bg-gradient-to-r from-orange-500 via-pink-500 to-purple-600 bg-clip-text text-transparent">
+                    <span className="bg-[image:var(--gradient-brand)] bg-clip-text text-transparent">
                     Technologies
                     </span>
                 </h2>

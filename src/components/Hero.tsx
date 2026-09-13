@@ -5,7 +5,7 @@ function Hero(){
                 <div className="flex flex-col items-start space-y-6 text-left">
                     <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-slate-900">
                         Build Your Ideal <br className="hidden sm:inline"/>
-                        <span className="bg-linear-to-r from-orange-500 via-pink-500 to-purple-600 bg-clip-text text-transparent">
+                        <span className="bg-[image:var(--gradient-brand)] bg-clip-text text-transparent">
                             Development Stack
                         </span>
                     </h1>
@@ -16,7 +16,7 @@ function Hero(){
                         </p>
 
                         <div className="flex flex-wrap gap-4 pt-2">
-                            <button className="px-6 py-3 rounded-lg text-white font-medium shadow-md hover:shadow-lg transition-all transform hover:- translate-y-0.5 bg-linear-to-r from-orange-500 to-pink-600">
+                            <button className="px-6 py-3 rounded-lg text-white font-medium shadow-md hover:shadow-lg transition-all transform hover:- translate-y-0.5 bg-[image:var(--gradient-brand)]">
                                 Explore Technologies
                             </button>
 
